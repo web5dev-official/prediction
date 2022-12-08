@@ -885,7 +885,6 @@ contract PancakePredictionV2 is Ownable, Pausable, ReentrancyGuard {
         uint256 _treasuryFee
     ) {
         require(_treasuryFee <= MAX_TREASURY_FEE, "Treasury fee too high");
-
         oracle = AggregatorV3Interface(_oracleAddress);
         adminAddress = _adminAddress;
         operatorAddress = _operatorAddress;
