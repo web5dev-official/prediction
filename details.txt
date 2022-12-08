@@ -1,0 +1,3 @@
+testing project on binance testnet shibx live market prediction
+--> ShibxAddress --> 0x3d7F1a8C3864977924529149BF50D4664FAADd35 // deployed on bsc testnet
+--> 
