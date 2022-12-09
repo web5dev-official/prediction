@@ -1,0 +1,19 @@
+.Card-Main {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+.Card-Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46vh;
+  color: blue;
+  border: 3px solid blue;
+  background-color: white;
+  border-radius: 30px;
+  width: 18vw;
+}

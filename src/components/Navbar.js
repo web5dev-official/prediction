@@ -1,11 +1,16 @@
 import React from 'react'
+import "./navbar.css"
 
 export default function Navbar() {
+  const WalletConnector = async() => {
+    alert("wallet connector activated")
+  }
   return (
-    <div className='absolute'>
-    <div className='w-[100vw] bg-slate-900 h-[7vh]'>
-        <span className='bg-white'>Testing</span>
-        <button>Connect Wallet</button>
+    <div className='nav-div'>
+    <div className='navbar'>
+        <span>Shibx Prediction (Beta)</span>
+        <button onClick={WalletConnector}>Connect Wallet</button>
+        <button onClick={WalletConnector}>Get Test Shibx Token</button>
     </div>
     </div>
   )
