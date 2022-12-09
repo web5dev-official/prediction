@@ -4,14 +4,14 @@
     },
     {   
         "round": "#02",
-        "data2": "testing2"
+        "data": "testing2"
     },
     {  
         "round":"#03",
-        "data3": "testing3"
+        "data": "testing3"
     },
     {
         "round":"#04",
-        "data4": "testing4"
+        "data": "testing4"
     }
 ]

@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './components/Card';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { arr } from './database/data';
 import { WalletConnect } from './blockchain/wallet';
 
@@ -17,6 +18,8 @@ function App() {
     <div>
       <Navbar ClassName = "bg-white"></Navbar>
       <Card></Card>
+      <Footer></Footer>
+      
       {/* <button className='bg-blue-700' onClick={Click_me}>Click Me</button> */}
     </div>
   );
