@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: 46vh;
   margin: 8px;
   color: blue;
@@ -19,14 +19,67 @@
   border-radius: 30px;
   width: 18vw;
 }
+
+.ProgressBar {
+  background-color: rgb(55, 255, 0);
+  height: 6px;
+  width: 32%;
+}
+
+.ProgressBar-background {
+  background-color: rgb(174, 171, 171);
+  height: 6px;
+  width: 100%;
+}
+
 .card-h1 {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  border-bottom: 5px solid rgb(73, 54, 196);
+  background-color: #ffffff;
+  /* border-bottom: 5px solid rgb(73, 54, 196); */
   height: 20%;
   width: 100%;
 }
 
 .card-h2 {
   height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border: 3px solid blueviolet;
+  padding: 12px 4px;
+}
+
+.card-box div {
+  display: flex;
+}
+
+.card-box div p {
+  margin-right: auto;
+}
+
+.card-box button {
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 70%;
+  padding: 6px 0px;
+  font-weight: 800;
+}
+
+.btn-up {
+  margin-bottom: 4px;
+  background-color: #31D0AA;
+}
+
+.btn-down {
+  background-color: #ED4B9E;
 }
