@@ -2,12 +2,11 @@ import React from 'react'
 import "./navbar.css"
 import { WalletConnect } from '../blockchain/wallet'
 import { useState } from 'react'
-import ReactModal from 'react-modal'
 
 export default function Navbar() {
   const [ConnectStatus, setConnectStatus] = useState("Connect Wallet")
   const WalletConnector = async() => {
-    const obj = await WalletConnect();
+    await WalletConnect();
     setConnectStatus("Connected");
   }
   return (

@@ -2,8 +2,6 @@ import './App.css';
 import Card from './components/Card';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { arr } from './database/data';
-import { WalletConnect } from './blockchain/wallet';
 
 function App() {
   // const walletconnect = async() => {

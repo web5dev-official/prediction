@@ -1,6 +1,5 @@
 import { Config } from "./config";
 import walletConnectModule from "@web3-onboard/walletconnect";
-import coinbaseWallet from "@web3-onboard/coinbase";
 import injectedModule from "@web3-onboard/injected-wallets";
 import Onboard from "@web3-onboard/core";
 import { ethers } from "ethers";
